@@ -1,0 +1,109 @@
+/* General Changes */
+h3{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.btn-outline-secondary{
+  cursor: pointer;
+}
+
+/* google fonts */
+body{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+/* Main Navbar */
+.navbar-nav{
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  margin-left: auto;
+}
+
+
+
+.navbar-brand i{
+  font-weight: bold;
+}
+
+
+/* header */
+
+#header{
+  background: url('../images/cat-bg1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#header .overlay{
+  background-color: rgba(26, 0, 26, 0.1);
+  height: 100vh;
+}
+
+#header h1{
+  margin-top: 70px;
+}
+
+/* header */
+
+/* WhyDoesMyCat */
+
+#why{
+  background: url('../images/cat-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+/* WhyDoesMyCat */
+
+
+/* Vet Section */
+#vet{
+  background-color: #A0E0E4;
+}
+
+.vetArea{
+  margin-top: 55px;
+}
+/* Vet Section */
+
+
+/* Vet1 Section */
+#vet1{
+  background-color: #FCC0C5;
+}
+
+#vet1 img{
+  height: 400px;
+  width: 500px;
+  /* margin-top: 10px; */
+  padding: 20px;
+}
+
+#vet1 h3{
+  margin-top: 110px;
+}
+
+/* Vet1 Section */
+
+/* testimonial */
+#testimonial {
+  background-color: #F2E6D6;
+}
+
+
+/* footer */
+.social a{
+  color: black;
+  justify-content: space-around;
+  margin: 10px;
+}
